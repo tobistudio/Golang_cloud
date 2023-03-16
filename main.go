@@ -15,11 +15,6 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
-var (
-	version = "0.0.0"
-	commit  = "none"
-	date    = "unknown"
-)
 
 type options struct {
 	Version    bool     `long:"version" description:"Show tool version"`
